@@ -119,8 +119,8 @@ public class Buoi1 {
         float weight = scanner.nextFloat();
         System.out.print(ANSI_BLUE + "Mời bạn nhập chiều cao (x.xx mét): " + ANSI_RESET);
         float height = scanner.nextFloat();
-        System.out.print(ANSI_BLUE + "Cân nặng của bạn là " + weight + ANSI_RESET);
-        System.out.print(ANSI_BLUE + " Chiều cao của bạn là " + height + ANSI_RESET);
+        System.out.print(ANSI_BLUE + "Cân nặng của bạn là " + weight + "KG" + ANSI_RESET);
+        System.out.print(ANSI_BLUE + " Chiều cao của bạn là " + height + "M" + ANSI_RESET);
         float result = (weight / (height * height));
         System.out.print(ANSI_BLUE + " Chỉ số BMI của bạn là " + Math.ceil(result*100.0f)/100.0f + ANSI_RESET);
 
