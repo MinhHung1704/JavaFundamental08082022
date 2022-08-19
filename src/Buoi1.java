@@ -140,6 +140,7 @@ public class Buoi1 {
         float minLevel4 = 34.9f;
         float minLevel5 = 39.9f;
         float minLevel6 = 40.0f;
+        // varible report
 
         if (result < minLevel1) {
             System.out.print(ANSI_GREEN + " Bạn đang ở mức Ốm, Nguy cơ phát triển bệnh của bạn ở mức độ THẤP " + ANSI_RESET);
