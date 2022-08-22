@@ -157,5 +157,7 @@ public class Buoi1 {
 //        }
 //        else if (result > minLevel6)
 //            System.err.println(" Bạn đang ở mức Béo Phì cấp độ 3, Nguy cơ phát triển bệnh của bạn ở mức độ Nguy Hiểm ");
+
+        // LanVy
     }
     }
