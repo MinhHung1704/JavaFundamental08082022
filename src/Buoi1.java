@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Buoi1 {
     public static void main(String[] args) {
         // comment
@@ -110,54 +108,54 @@ public class Buoi1 {
 
 
 
-        String ANSI_RESET, ANSI_GREEN, ANSI_YELLOW, ANSI_BLUE;
-        ANSI_RESET = "\u001B[0m";
-        ANSI_GREEN = "\u001B[32m";
-        ANSI_YELLOW = "\u001B[33m";
-        ANSI_BLUE = "\u001B[34m";
-        // color code
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.print(ANSI_BLUE + "Mời bạn nhập cân nặng (kg): " + ANSI_RESET);
-        float weight = scanner.nextFloat();
-        // input weight
-
-        System.out.print(ANSI_BLUE + "Mời bạn nhập chiều cao (x.xx mét): " + ANSI_RESET);
-        float height = scanner.nextFloat();
-        // input height
-
-        System.out.print(ANSI_BLUE + "Cân nặng của bạn là " + weight + "KG" + ANSI_RESET);
-        System.out.print(ANSI_BLUE + " Chiều cao của bạn là " + height + "M" + ANSI_RESET);
-        float result = (weight / (height * height));
-        // BMI calculate
-
-        System.out.print(ANSI_BLUE + " Chỉ số BMI của bạn là " + Math.ceil(result * 100.0f) / 100.0f + ANSI_RESET);
-        // BMI report after calculate
-
-        float minLevel1 = 18.5f;
-        float minLevel2 = 24.9f;
-        float minLevel3 = 29.9f;
-        float minLevel4 = 34.9f;
-        float minLevel5 = 39.9f;
-        float minLevel6 = 40.0f;
-        // varible report
-
-        if (result < minLevel1) {
-            System.out.print(ANSI_GREEN + " Bạn đang ở mức Ốm, Nguy cơ phát triển bệnh của bạn ở mức độ THẤP " + ANSI_RESET);
-        }
-        else if (result < minLevel2) {
-            System.out.print(ANSI_GREEN + " Bạn đang ở mức Cân Đối, Nguy cơ phát triển bệnh của bạn ở mức độ TRUNG BÌNH " + ANSI_RESET);
-        }
-        else if (result < minLevel3) {
-            System.out.print(ANSI_YELLOW + " Bạn đang ở mức Hơi Béo, Nguy cơ phát triển bệnh của bạn ở mức độ Cao " + ANSI_RESET);
-        }
-        else if  (result < minLevel4) {
-            System.out.print(ANSI_YELLOW +" Bạn đang ở mức Béo Phì cấp độ 1, Nguy cơ phát triển bệnh của bạn ở mức độ Cao " + ANSI_RESET);
-        }
-        else if  (result < minLevel5) {
-            System.out.print(ANSI_YELLOW + " Bạn đang ở mức Béo Phì cấp độ 2, Nguy cơ phát triển bệnh của bạn ở mức độ Rất Cao " + ANSI_RESET);
-        }
-        else if (result > minLevel6)
-            System.err.println(" Bạn đang ở mức Béo Phì cấp độ 3, Nguy cơ phát triển bệnh của bạn ở mức độ Nguy Hiểm ");
+//        String ANSI_RESET, ANSI_GREEN, ANSI_YELLOW, ANSI_BLUE;
+//        ANSI_RESET = "\u001B[0m";
+//        ANSI_GREEN = "\u001B[32m";
+//        ANSI_YELLOW = "\u001B[33m";
+//        ANSI_BLUE = "\u001B[34m";
+//        // color code
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print(ANSI_BLUE + "Mời bạn nhập cân nặng (kg): " + ANSI_RESET);
+//        float weight = scanner.nextFloat();
+//        // input weight
+//
+//        System.out.print(ANSI_BLUE + "Mời bạn nhập chiều cao (x.xx mét): " + ANSI_RESET);
+//        float height = scanner.nextFloat();
+//        // input height
+//
+//        System.out.print(ANSI_BLUE + "Cân nặng của bạn là " + weight + "KG" + ANSI_RESET);
+//        System.out.print(ANSI_BLUE + " Chiều cao của bạn là " + height + "M" + ANSI_RESET);
+//        float result = (weight / (height * height));
+//        // BMI calculate
+//
+//        System.out.print(ANSI_BLUE + " Chỉ số BMI của bạn là " + Math.ceil(result * 100.0f) / 100.0f + ANSI_RESET);
+//        // BMI report after calculate
+//
+//        float minLevel1 = 18.5f;
+//        float minLevel2 = 24.9f;
+//        float minLevel3 = 29.9f;
+//        float minLevel4 = 34.9f;
+//        float minLevel5 = 39.9f;
+//        float minLevel6 = 40.0f;
+//        // varible report
+//
+//        if (result < minLevel1) {
+//            System.out.print(ANSI_GREEN + " Bạn đang ở mức Ốm, Nguy cơ phát triển bệnh của bạn ở mức độ THẤP " + ANSI_RESET);
+//        }
+//        else if (result < minLevel2) {
+//            System.out.print(ANSI_GREEN + " Bạn đang ở mức Cân Đối, Nguy cơ phát triển bệnh của bạn ở mức độ TRUNG BÌNH " + ANSI_RESET);
+//        }
+//        else if (result < minLevel3) {
+//            System.out.print(ANSI_YELLOW + " Bạn đang ở mức Hơi Béo, Nguy cơ phát triển bệnh của bạn ở mức độ Cao " + ANSI_RESET);
+//        }
+//        else if  (result < minLevel4) {
+//            System.out.print(ANSI_YELLOW +" Bạn đang ở mức Béo Phì cấp độ 1, Nguy cơ phát triển bệnh của bạn ở mức độ Cao " + ANSI_RESET);
+//        }
+//        else if  (result < minLevel5) {
+//            System.out.print(ANSI_YELLOW + " Bạn đang ở mức Béo Phì cấp độ 2, Nguy cơ phát triển bệnh của bạn ở mức độ Rất Cao " + ANSI_RESET);
+//        }
+//        else if (result > minLevel6)
+//            System.err.println(" Bạn đang ở mức Béo Phì cấp độ 3, Nguy cơ phát triển bệnh của bạn ở mức độ Nguy Hiểm ");
     }
     }
