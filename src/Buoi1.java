@@ -106,8 +106,6 @@ public class Buoi1 {
         // }
 
 
-
-
 //        String ANSI_RESET, ANSI_GREEN, ANSI_YELLOW, ANSI_BLUE;
 //        ANSI_RESET = "\u001B[0m";
 //        ANSI_GREEN = "\u001B[32m";
@@ -157,5 +155,52 @@ public class Buoi1 {
 //        }
 //        else if (result > minLevel6)
 //            System.err.println(" Bạn đang ở mức Béo Phì cấp độ 3, Nguy cơ phát triển bệnh của bạn ở mức độ Nguy Hiểm ");
-    }
-    }
+        // Hello
+
+        // 5: Câu điều kiện switch case
+
+//        int month = 6;
+//
+//        switch (month) {
+//            case 1:
+//                System.out.println("Quý 1");
+//                break;
+//            case 2:
+//                System.out.println("Quý 2");
+//                break;
+//            case 3:
+//                System.out.println("Quý 3");
+//                break;
+
+//            case 1:
+//            case 2:
+//            case 3:
+//                System.out.println("Quý 3");
+//                break; }
+
+        // 5: Mảng
+        // Array = chỉ được lưu không được xóa thêm ( nhược điểm: tât cả lưu tại 1 nơi)
+        // Collection = Không tập trung 1 nơi ( Có thẻe thêm xóa sửa )
+
+        // Array cách 1: Tạo ra và truyền các phần tử cho mảng
+        String[] arrNames = {"Tân", "Hào", "Hiệp", "Tiến", "Minh"};
+
+        // Lấy kích thước của mảng
+        // System.out.print("Kích thước của mảng là " + arrNames.length);
+
+        // Lấy giá trị phần tử theo index
+        // Vị trí đầu tiên sẽ có index = 0
+        // Vị trí cuối sẽ là length - 1
+        // System.out.print(arrNames[1]);
+
+
+        // chỉnh sửa value
+        // arrNames[1] = "Tân Hoàng Minh";
+        // System.out.print(arrNames[1]);
+
+        // Array cách 2: Tạo ra mảng nhưng chỉ biết số lượng
+        // String[] arrNames = new String[10];
+
+
+
+    } }
