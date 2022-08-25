@@ -1,4 +1,3 @@
-
 public class Buoi1 {
     public static void main(String[] args) {
         // comment
@@ -184,7 +183,7 @@ public class Buoi1 {
         // Collection = Không tập trung 1 nơi ( Có thẻe thêm xóa sửa )
 
         // Array cách 1: Tạo ra và truyền các phần tử cho mảng
-        // String[] arrNames = {"Tân", "Hào", "Hiệp", "Tiến", "Minh"};
+        String[] arrNames = {"Tân", "Hào", "Hiệp", "Tiến", "Minh"};
 
         // Lấy kích thước của mảng
         // System.out.print("Kích thước của mảng là " + arrNames.length);
@@ -202,33 +201,6 @@ public class Buoi1 {
         // Array cách 2: Tạo ra mảng nhưng chỉ biết số lượng
         // String[] arrNames = new String[10];
 
-        // 6: Vòng lặp for
-
-        // for (int i = 1; i <= 100; i++) {
-            // if(i % 2 == 0)
-                // System.out.println(i + " Đây là số chẵn!");
-
-        int[] arrNumbers = {2,3,4,5,6,10,1,20,30,15,16,17,18,21,22,23};
-        // Các mảng phân tử
-
-        int min = arrNumbers[0];
-        int max = arrNumbers[0];
-        // Gán giá trị nhỏ và lớn nhất vào min và max
-
-        for (int i = 0; i < arrNumbers.length; i++){
-            if(arrNumbers[i] < min){min = arrNumbers[i];
-            }
-            // Nếu có giá trị nhỏ hơn min sẽ gán giá trị đó vào min
-
-            if(arrNumbers[i] > max){max = arrNumbers[i];
-            }
-            // Nếu có giá trị lớn hơn max sẽ gán giá trị đó vào max
-        }
-        System.out.println("Giá trị nhỏ nhất là: " + min);
-        System.out.println("Giá trị nhỏ nhất là: " + max);
 
 
-
-
-        }
-    }
+    } }
