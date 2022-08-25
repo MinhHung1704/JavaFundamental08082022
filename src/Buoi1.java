@@ -1,4 +1,3 @@
-
 public class Buoi1 {
     public static void main(String[] args) {
         // comment
@@ -227,8 +226,6 @@ public class Buoi1 {
         System.out.println("Giá trị nhỏ nhất là: " + min);
         System.out.println("Giá trị nhỏ nhất là: " + max);
 
-
-
-
+        //Done
         }
     }
