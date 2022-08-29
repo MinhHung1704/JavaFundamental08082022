@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Buoi1 {
     public static void main(String[] args) {
@@ -205,30 +206,81 @@ public class Buoi1 {
         // 6: Vòng lặp for
 
         // for (int i = 1; i <= 100; i++) {
-            // if(i % 2 == 0)
-                // System.out.println(i + " Đây là số chẵn!");
+        // if(i % 2 == 0)
+        // System.out.println(i + " Đây là số chẵn!");
 
-        int[] arrNumbers = {2,3,4,5,6,10,1,20,30,15,16,17,18,21,22,23};
-        // Các mảng phân tử
+//        int[] arrNumbers = {2,3,4,5,6,10,1,20,30,15,16,17,18,21,22,23};
+//        // Các mảng phân tử
+//
+//        int min = arrNumbers[0];
+//        int max = arrNumbers[0];
+//        // Gán giá trị nhỏ và lớn nhất vào min và max
+//
+//        for (int i = 0; i < arrNumbers.length; i++){
+//            if(arrNumbers[i] < min){min = arrNumbers[i];
+//            }
+//            // Nếu có giá trị nhỏ hơn min sẽ gán giá trị đó vào min
+//
+//            if(arrNumbers[i] > max){max = arrNumbers[i];
+//            }
+//            // Nếu có giá trị lớn hơn max sẽ gán giá trị đó vào max
+//        }
+//        System.out.println("Giá trị nhỏ nhất là: " + min);
+//        System.out.println("Giá trị nhỏ nhất là: " + max);
 
-        int min = arrNumbers[0];
-        int max = arrNumbers[0];
-        // Gán giá trị nhỏ và lớn nhất vào min và max
+        // 7: Vòng lặp while
 
-        for (int i = 0; i < arrNumbers.length; i++){
-            if(arrNumbers[i] < min){min = arrNumbers[i];
-            }
-            // Nếu có giá trị nhỏ hơn min sẽ gán giá trị đó vào min
+//        int[] arrNumbers = {2,3,4,5,6,10,1,-1,20,30,15,16,17,18,21,22,23};
+//
+//        int count = arrNumbers.length -1;
+//        while (count >=0) {
+//            System.out.println(arrNumbers[count--]);
+//        }
 
-            if(arrNumbers[i] > max){max = arrNumbers[i];
-            }
-            // Nếu có giá trị lớn hơn max sẽ gán giá trị đó vào max
-        }
-        System.out.println("Giá trị nhỏ nhất là: " + min);
-        System.out.println("Giá trị nhỏ nhất là: " + max);
+        // vòng lặp do while
+
+//        Scanner scanner = new Scanner(System.in);
+//        int value = -1;
+//        do {
+//            System.out.print("Mời bạn nhập tuổi: ");
+//            value = scanner.nextInt();
+//        }while(value < 0);
+//
+//        System.out.print("Bạn hiên tại " + value + " tuổi");
 
 
+        // Hướng đối tượng
+        // Object (instance) và class
 
+        // Định nghĩa ra Objecvt (instance)
+        // Animal cat = new Animal("1.2 Kg", "20cm");
+        // System.out.print(cat.height);
+        // System.out.print(cat.weight);
+        // cat.run("Chạy bằng 4 chân");
 
-        }
+        // Phương thức
+        // Access modifier: phạm vi truy cập
+        // Duplicate
+
+        // print("Xin chao");
+
+        int data = plus(5, 10);
+        print(data + "");
     }
+
+    // Định nghĩa phương thức
+    // 1: Phạm vi truy cập (public, private, protected, default)
+    // 2: Giá trị trả về
+    // 3: Tên của phương thức
+    // 4: Tham số truyền vào
+
+    // phương thức tổng khi xử lý xong trả về kết quả
+    private static void print(String message) {
+        System.out.print(message);
+    }
+
+    private static int plus(int a, int b) {
+        int result = a + b;
+        return result;
+    }
+}
