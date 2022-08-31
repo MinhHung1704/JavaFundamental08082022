@@ -7,21 +7,21 @@ public class PizzaCheese extends Pizza {
 
     @Override
     void prepare() {
-        System.out.print("Pizza Cheese Prepare ");
+        System.out.println("Pizza Cheese Prepare ");
     }
 
     @Override
     void sauce() {
-        System.out.print("Pizza Cheese Sauce ");
+        System.out.println("Pizza Cheese Sauce ");
     }
 
     @Override
     void bake() {
-        System.out.print("Pizza Cheese Bake ");
+        System.out.println("Pizza Cheese Bake ");
     }
 
     @Override
     void cut() {
-        System.out.print("Pizza Cheese Cut ");
+        System.out.println("Pizza Cheese Cut ");
     }
 }

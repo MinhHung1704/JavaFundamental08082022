@@ -7,21 +7,21 @@ public class PizzaVegetable extends Pizza {
 
     @Override
     void prepare() {
-         System.out.print("Pizza Vegetable Prepare");
+         System.out.println("Pizza Vegetable Prepare");
     }
 
     @Override
     void sauce() {
-        System.out.print("Pizza Vegetable Sauce ");
+        System.out.println("Pizza Vegetable Sauce ");
     }
 
     @Override
     void bake() {
-        System.out.print("Pizza Vegetable Bake ");
+        System.out.println("Pizza Vegetable Bake ");
     }
 
     @Override
     void cut() {
-        System.out.print("Pizza Vegetable Cut ");
+        System.out.println("Pizza Vegetable Cut ");
     }
 }
